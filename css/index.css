@@ -1,0 +1,31 @@
+.container {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    height: 1440px !important;
+    width: 2560px !important;
+    position: absolute;
+    top: 0px;
+    z-index: 6;
+}
+
+.title {
+    display: flex !important;
+    align-items: center;
+    justify-content :space-between;
+    flex-direction: column;
+    height: 1260px !important;
+    width: 1920px !important;
+    margin-left: 75px;
+}
+
+.header {
+    width: 1920px !important;
+    height: 160px !important;
+    background: rgba(17, 63, 38, 0.7);
+    margin-bottom: 20px;
+    border-width: 20px;
+    border-color:rgb(201, 201, 201)
+}
