@@ -29,3 +29,24 @@
     border-width: 20px;
     border-color:rgb(201, 201, 201)
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 2100px;
+      width: 20%;
+    }
+
+    50% {
+      margin-left: 0%;
+      width:20%;
+    }
+  
+    to {
+      margin-left: 2100px;
+      width: 20%;
+    }
+}
+
+#animateMe {
+  animation: slidein 2s infinite;
+}
